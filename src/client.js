@@ -10,7 +10,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
-import UniversalRouter from 'universal-router';
+import UniversalRouter from 'universal-router/main';
 import queryString from 'query-string';
 import { createPath } from 'history/PathUtils';
 import history from './core/history';

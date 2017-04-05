@@ -16,7 +16,7 @@ import expressGraphQL from 'express-graphql';
 import jwt from 'jsonwebtoken';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
-import UniversalRouter from 'universal-router';
+import UniversalRouter from 'universal-router/main';
 import PrettyError from 'pretty-error';
 import App from './components/App';
 import Html from './components/Html';

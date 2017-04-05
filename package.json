@@ -136,10 +136,6 @@
   },
   "//eslintConfig": {
     "rules": {
-      "import/extensions": [
-        "`js` and `jsx` are common extensions",
-        "`mjs` is for `universal-router` only, for now"
-      ],
       "import/no-extraneous-dependencies": [
         "Not supporting nested package.json yet",
         "https://github.com/benmosher/eslint-plugin-import/issues/458"
@@ -169,15 +165,6 @@
       "browser": true
     },
     "rules": {
-      "import/extensions": [
-        "error",
-        "always",
-        {
-          "js": "never",
-          "jsx": "never",
-          "mjs": "never"
-        }
-      ],
       "import/no-extraneous-dependencies": "off",
       "react/jsx-filename-extension": "off",
       "react/prefer-stateless-function": "off"
